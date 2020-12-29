@@ -1,8 +1,4 @@
 package stack;
-
-
-
-
 public class Stack {
 	static int top = 10;
 	Node head =null;
@@ -21,8 +17,7 @@ public class Stack {
 	    }
 	   }
 	
-	
-	
+		
 	void pop() {
 		 if(head==null) {
 		 	 System.out.println("Stack underflow");
@@ -43,6 +38,4 @@ public class Stack {
 				}
 			}
 		   }
-	
-
 }
